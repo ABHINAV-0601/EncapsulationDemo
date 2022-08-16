@@ -9,11 +9,11 @@ public class BookImpl {
         book.setPrice(250.64);
         book.setISBN(458745821422L);
         //getting and printing the values
-        System.out.println("book.getTitle() = " + book.getTitle());
-        System.out.println("book.getAuthorName() = " + book.getAuthorName());
-        System.out.println("book.getYearOfPublication() = " + book.getYearOfPublication());
-        System.out.println("book.getISBN() = " + book.getISBN());
-        System.out.println("book.getPrice() = " + book.getPrice());
+        System.out.println("Title = " + book.getTitle());
+        System.out.println("Author Name = " + book.getAuthorName());
+        System.out.println("Year Of Publication = " + book.getYearOfPublication());
+        System.out.println("ISBN = " + book.getISBN());
+        System.out.println("Price = " + book.getPrice());
     }
 
 
