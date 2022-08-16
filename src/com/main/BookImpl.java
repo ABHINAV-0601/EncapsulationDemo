@@ -8,7 +8,7 @@ public class BookImpl {
         book.setYearOfPublication(2004);
         book.setPrice(250.64);
         book.setISBN(458745821422L);
-
+        //getting and printing the values
         System.out.println("book.getTitle() = " + book.getTitle());
         System.out.println("book.getAuthorName() = " + book.getAuthorName());
         System.out.println("book.getYearOfPublication() = " + book.getYearOfPublication());
